@@ -1,0 +1,62 @@
+td{
+    text-align: center;
+    font-size: 0.9vw;
+    height: 6vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:100px ;
+}
+#grand{
+    font-weight: bold;
+    font-size: 2vw;
+}
+#orange{
+    background-color:rgb(247,164,139);
+}
+#rose{
+    background-color: rgb(195,102,141);
+}
+#rose_clair{
+    background-color: rgb(230,139,149);
+}
+#violet{
+    background-color: rgb(156,147,197);
+}
+#orange_clair{
+    background-color: rgb(255,206,160);
+}
+#vert{
+    background-color:rgb(163,218,201) ;
+}
+#vert_clair{
+    background-color: rgb(204,235,200);
+}
+#bleu{
+    background-color: rgb(132,186,217);
+}
+#jaune{
+    background-color: rgb(253,235,184);
+}
+#jaune_clair{
+    background-color:rgb(240,249,193) ;
+}
+img{
+    width: 10%;
+    align-self: center;
+}
+@media screen and (max-width: 720px){
+    table{ 
+        width: 2%;
+        align-self: center;
+    }
+    td{
+        text-align: center;
+        font-size: 0.6vw;
+        height: 3vh;
+    }
+}
